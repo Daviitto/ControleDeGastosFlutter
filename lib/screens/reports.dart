@@ -24,7 +24,7 @@ class ReportsScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('Gastos por Categoria', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-          Expanded(child: Center(child: Image.asset('assets/images/ad332e65-9e6e-4c72-8bb0-a2846fef3259.png'))),
+          Expanded(child: Center()),
         ],
       ),
     );
@@ -39,7 +39,7 @@ class ReportsScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text('Evolução Mensal', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-          Expanded(child: Center(child: Image.asset('assets/images/96646a22-d6bf-44dd-ba66-e4bbfa964699.png'))),
+          Expanded(child: Center()),
         ],
       ),
     );
